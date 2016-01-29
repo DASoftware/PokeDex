@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A14876911C5A513C00EE0E24 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14876841C5A512E00EE0E24 /* Alamofire.framework */; };
 		A14876921C5A513C00EE0E24 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A14876841C5A512E00EE0E24 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A14876961C5A525600EE0E24 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14876951C5A525600EE0E24 /* Constants.swift */; };
 		A199C8031C57713900B80878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199C8021C57713900B80878 /* AppDelegate.swift */; };
 		A199C8051C57713900B80878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A199C8041C57713900B80878 /* ViewController.swift */; };
 		A199C8081C57713900B80878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A199C8061C57713900B80878 /* Main.storyboard */; };
@@ -98,6 +99,7 @@
 
 /* Begin PBXFileReference section */
 		A14876791C5A512E00EE0E24 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		A14876951C5A525600EE0E24 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A199C7FF1C57713900B80878 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A199C8021C57713900B80878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A199C8041C57713900B80878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				A199C81C1C5783B000B80878 /* CSV.swift */,
+				A14876951C5A525600EE0E24 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				A199C8051C57713900B80878 /* ViewController.swift in Sources */,
 				A199C81D1C5783B000B80878 /* CSV.swift in Sources */,
 				A199C8261C57933C00B80878 /* PokemonDetailVC.swift in Sources */,
+				A14876961C5A525600EE0E24 /* Constants.swift in Sources */,
 				A199C8031C57713900B80878 /* AppDelegate.swift in Sources */,
 				A199C8181C57744D00B80878 /* Pokemon.swift in Sources */,
 			);

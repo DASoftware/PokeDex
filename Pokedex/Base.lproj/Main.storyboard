@@ -372,6 +372,7 @@
                         <outlet property="evoLabel" destination="bJl-u4-yAO" id="1mP-8M-p3g"/>
                         <outlet property="heightLabel" destination="gx4-nL-EAl" id="QA5-q0-j8l"/>
                         <outlet property="mainImage" destination="KMm-4j-Akm" id="Onc-Il-LpR"/>
+                        <outlet property="nameLabel" destination="Wd1-QW-RDN" id="uez-yI-euu"/>
                         <outlet property="nextEvoImage" destination="xzS-89-Nn6" id="gMU-S2-sBU"/>
                         <outlet property="pokedexLabel" destination="sXS-4y-wSA" id="lz1-Zz-2eN"/>
                         <outlet property="typeLabel" destination="Wyb-Va-CMF" id="pkz-RN-RXC"/>
